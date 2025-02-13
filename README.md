@@ -29,7 +29,7 @@
 如果你使用 Composer 来管理你的 PHP 项目，可以通过以下命令安装此 SDK：
 
 ```bash
-composer require dearlicy/AfdianClient
+composer require dearlicy/afdian-client
 ```
 
 ## 手动安装
