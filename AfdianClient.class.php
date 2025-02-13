@@ -210,21 +210,3 @@ class AfdianClient {
         return json_decode($response, true);
     }
 }
-
-// 示例使用
-$client = new AfdianClient('your_user_id', 'your_token');
-
-// 根据订单号查询订单并以JSON格式输出
-$result = $client->queryOrderByOutTradeNo('OrderID');
-header('Content-Type: application/json; charset=UTF-8');
-echo json_encode($result, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
-
-// 获取所有订单并以JSON格式输出
-$result = $client->getAllOrders();
-header('Content-Type: application/json; charset=UTF-8');
-echo json_encode($result, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
-
-// 获取赞助者信息并以JSON格式输出
-$result = $client->getSponsors();
-header('Content-Type: application/json; charset=UTF-8');
-echo json_encode($result, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
