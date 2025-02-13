@@ -1,0 +1,24 @@
+{
+    "name": "dearlicy/AfdianClient",
+    "description": "PHP SDK for interacting with the Afdian API, including order and sponsor information retrieval.",
+    "type": "library",
+    "keywords": ["afdian", "sdk", "php"],
+    "homepage": "https://github.com/DearLicy/AfdianClient",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DearLicy",
+            "email": "DearLicy@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Afdian\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
