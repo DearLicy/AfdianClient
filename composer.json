@@ -1,5 +1,5 @@
 {
-    "name": "dearlicy/AfdianClient",
+    "name": "dearlicy/afdian-client",
     "description": "PHP SDK for interacting with the Afdian API, including order and sponsor information retrieval.",
     "type": "library",
     "keywords": ["afdian", "sdk", "php"],
